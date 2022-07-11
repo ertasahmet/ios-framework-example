@@ -2,7 +2,7 @@
 //  CustomValidator.h
 //  CustomValidator
 //
-//  Created by Ahmet Ertas on 10.07.2022.
+//  Created by Ahmet Ertas on 11.07.2022.
 //
 
 #import <Foundation/Foundation.h>
