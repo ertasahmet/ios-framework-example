@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
     name: "CardViews",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -15,5 +15,6 @@ let package = Package(
         .binaryTarget(
             name: "CardViews",
             path: "CardViews.xcframework")
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
