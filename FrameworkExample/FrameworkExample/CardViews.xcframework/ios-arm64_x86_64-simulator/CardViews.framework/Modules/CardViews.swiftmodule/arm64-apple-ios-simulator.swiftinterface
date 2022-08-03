@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios15.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CardViews
+@_exported import CardViews
+import Swift
+import UIKit
+import _Concurrency
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CardView : UIKit.UIView {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CaptionableImageView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var label: UIKit.UILabel!
+  @_Concurrency.MainActor(unsafe) public var imageView: UIKit.UIImageView!
+  @_Concurrency.MainActor(unsafe) public var caption: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var image: UIKit.UIImage? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}

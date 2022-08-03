@@ -1,0 +1,11 @@
+framework module CardViews {
+  umbrella header "CardViews.h"
+
+  export *
+  module * { export * }
+}
+
+module CardViews.Swift {
+    header "CardViews-Swift.h"
+    requires objc
+}
