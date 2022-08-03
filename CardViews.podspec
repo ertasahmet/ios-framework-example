@@ -14,6 +14,5 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.swift_version = "5.5"
   s.ios.deployment_target = '12.0'
-  s.source_files = 'FantasticView/FantasticView.swift'
  
 end

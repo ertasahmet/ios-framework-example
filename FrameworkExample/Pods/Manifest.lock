@@ -1,0 +1,21 @@
+PODS:
+  - CardViews (1.0.0)
+
+DEPENDENCIES:
+  - CardViews (from `https://github.com/ertasahmet/ios-framework-example.git`)
+
+EXTERNAL SOURCES:
+  CardViews:
+    :git: https://github.com/ertasahmet/ios-framework-example.git
+
+CHECKOUT OPTIONS:
+  CardViews:
+    :commit: 5d2396bca05614f665bf1b8ab53ec6223af362cd
+    :git: https://github.com/ertasahmet/ios-framework-example.git
+
+SPEC CHECKSUMS:
+  CardViews: cf8ac2fbb5b72c3376795aaa6d2031233375aa8f
+
+PODFILE CHECKSUM: f869793d2d1f172f51369e443a3d303105daa314
+
+COCOAPODS: 1.11.2
